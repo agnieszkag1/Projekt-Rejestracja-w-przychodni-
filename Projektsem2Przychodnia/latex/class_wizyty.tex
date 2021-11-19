@@ -1,0 +1,103 @@
+\hypertarget{class_wizyty}{}\doxysection{Dokumentacja klasy Wizyty}
+\label{class_wizyty}\index{Wizyty@{Wizyty}}
+
+
+Klasa majšca symbolizować spis Wizyt np dla danego lekarza.  
+
+
+
+
+{\ttfamily \#include $<$Wizyty.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wizyty_a28fa7e3d5f22dd835918d12cec9fa250}{Wizyty}} ()
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ \mbox{\hyperlink{class_wizyty_a362c707242eee5f82503aa3f9e6145a2}{pobierz\+Dla\+Danego\+Lekarz}} (unsigned int numer\+Lekarza)
+\item 
+void \mbox{\hyperlink{class_wizyty_afb1324c79fee5973c52cc19a833e06cb}{dodaj}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ wizyta\+Ptr)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ \mbox{\hyperlink{class_wizyty_a395056580dab3d1321bd970e4962d78b}{pobierz\+Dla\+Danego\+Pacjenta}} (std\+::string pesel\+Pacjenta)
+\item 
+void \mbox{\hyperlink{class_wizyty_a17608c9b0f50d6c99049263a6cd186d1}{usun}} (std\+::string data, std\+::string godzina)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ \mbox{\hyperlink{class_wizyty_aa19d5a6202aa156e156c555d0581e0a7}{pobierz\+Wszystkie\+Wizyty}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa majšca symbolizować spis Wizyt np dla danego lekarza. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_wizyty_a28fa7e3d5f22dd835918d12cec9fa250}\label{class_wizyty_a28fa7e3d5f22dd835918d12cec9fa250}} 
+\index{Wizyty@{Wizyty}!Wizyty@{Wizyty}}
+\index{Wizyty@{Wizyty}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{Wizyty()}{Wizyty()}}
+{\footnotesize\ttfamily Wizyty\+::\+Wizyty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_wizyty_afb1324c79fee5973c52cc19a833e06cb}\label{class_wizyty_afb1324c79fee5973c52cc19a833e06cb}} 
+\index{Wizyty@{Wizyty}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{dodaj()}{dodaj()}}
+{\footnotesize\ttfamily void Wizyty\+::dodaj (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$}]{wizyta\+Ptr }\end{DoxyParamCaption})}
+
+Metoda sĹuĹźÄca do doawania wizyt do wektora wizyt 
+\begin{DoxyParams}{Parametry}
+{\em wizyta\+Ptr} & -\/ wskaĹşnik na wizytÄ, ktĂłrÄ dodajemy do pamiÄci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wizyty_a362c707242eee5f82503aa3f9e6145a2}\label{class_wizyty_a362c707242eee5f82503aa3f9e6145a2}} 
+\index{Wizyty@{Wizyty}!pobierzDlaDanegoLekarz@{pobierzDlaDanegoLekarz}}
+\index{pobierzDlaDanegoLekarz@{pobierzDlaDanegoLekarz}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{pobierzDlaDanegoLekarz()}{pobierzDlaDanegoLekarz()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ Wizyty\+::pobierz\+Dla\+Danego\+Lekarz (\begin{DoxyParamCaption}\item[{unsigned int}]{numer\+Lekarza }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwrĂłcenie wizyt danego lekarza
+
+\begin{DoxyReturn}{Zwraca}
+wizyty -\/ zwraca wektor wizyt danego lekarza ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyty_a395056580dab3d1321bd970e4962d78b}\label{class_wizyty_a395056580dab3d1321bd970e4962d78b}} 
+\index{Wizyty@{Wizyty}!pobierzDlaDanegoPacjenta@{pobierzDlaDanegoPacjenta}}
+\index{pobierzDlaDanegoPacjenta@{pobierzDlaDanegoPacjenta}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{pobierzDlaDanegoPacjenta()}{pobierzDlaDanegoPacjenta()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ Wizyty\+::pobierz\+Dla\+Danego\+Pacjenta (\begin{DoxyParamCaption}\item[{std\+::string}]{pesel\+Pacjenta }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwrĂłcenie wizyt danego pacjenta
+
+\begin{DoxyReturn}{Zwraca}
+wizyty -\/ zwraca wektor wizyt danego pacjenta 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyty_aa19d5a6202aa156e156c555d0581e0a7}\label{class_wizyty_aa19d5a6202aa156e156c555d0581e0a7}} 
+\index{Wizyty@{Wizyty}!pobierzWszystkieWizyty@{pobierzWszystkieWizyty}}
+\index{pobierzWszystkieWizyty@{pobierzWszystkieWizyty}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{pobierzWszystkieWizyty()}{pobierzWszystkieWizyty()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ Wizyty\+::pobierz\+Wszystkie\+Wizyty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda ktĂłra zwraca wszystkie wizyty jakie istniejÄ \begin{DoxyReturn}{Zwraca}
+wizyty -\/ zwraca wektor wszystkich wizyt 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyty_a17608c9b0f50d6c99049263a6cd186d1}\label{class_wizyty_a17608c9b0f50d6c99049263a6cd186d1}} 
+\index{Wizyty@{Wizyty}!usun@{usun}}
+\index{usun@{usun}!Wizyty@{Wizyty}}
+\doxysubsubsection{\texorpdfstring{usun()}{usun()}}
+{\footnotesize\ttfamily void Wizyty\+::usun (\begin{DoxyParamCaption}\item[{std\+::string}]{data,  }\item[{std\+::string}]{godzina }\end{DoxyParamCaption})}
+
+Metoda sĹuĹźÄca do usuwania konkretnej wizyty z wektora wizyt 
+\begin{DoxyParams}{Parametry}
+{\em data} & -\/ zmienna typu string, za pomocÄ ktĂłrej podajemy datÄ wizyty \\
+\hline
+{\em godzina} & -\/ zmienna typu int, za pomocÄ ktĂłrej podajemy godzinÄ wizyty \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_wizyty_8h}{Wizyty.\+h}}\item 
+\mbox{\hyperlink{_wizyty_8cpp}{Wizyty.\+cpp}}\end{DoxyCompactItemize}

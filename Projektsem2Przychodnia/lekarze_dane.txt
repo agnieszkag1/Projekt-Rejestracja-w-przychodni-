@@ -1,0 +1,49 @@
+Maja Kowalska 987678567 2345 kardiolog 
+1 15 19 
+2 13 17 
+3 8 20 
+4 0 0
+5 0 0
+6 8 12
+7 0 0
+Roman Kowalski 765256768 4341 pediatra 
+1 15 19
+2 0 0
+3 8 20
+4 0 0
+5 0 0
+6 8 12
+7 0 0
+Asia Lewandowska 981185617 2346 okulista
+1 10 5
+2 0 0
+3 8 20
+4 0 0
+5 0 0
+6 8 12
+7 0 0
+Paula Tomaszewska 798789567 4311 lekarz_rodzinny 
+1 10 5
+2 0 0
+3 8 20
+4 0 0
+5 0 0
+6 8 12
+7 13 19
+Jadwiga Kucharska 231543678 2347 kardiolog
+1 10 5
+2 0 0
+3 8 12
+4 14 18
+5 0 0
+6 8 12
+7 13 19
+Bogna Mazurek 879999777 4319 ortopeda 
+1 0 0
+2 0 0
+3 8 12
+4 14 18
+5 0 0
+6 8 12
+7 13 19
+

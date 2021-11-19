@@ -1,0 +1,41 @@
+digraph "Projektsem2Przychodnia.cpp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Projektsem2Przychodnia.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Konsola.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_konsola_8h.html",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Lekarz.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_lekarz_8h.html",tooltip=" "];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Osoba.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_osoba_8h.html",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Zmiana.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_zmiana_8h.html",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="Dzien.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dzien_8h.html",tooltip=" "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Pacjent.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pacjent_8h.html",tooltip=" "];
+  Node9 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="chrono",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Wizyty.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wizyty_8h.html",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Wizyta.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_wizyta_8h.html",tooltip=" "];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="memory",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node15 [color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="thread",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 -> Node16 [color="midnightblue",fontsize="10",style="solid"];
+  Node16 [label="mutex",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

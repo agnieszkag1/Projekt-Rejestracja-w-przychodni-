@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rejestracja W Przychodni: Plik źródłowy Wizyty.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rejestracja W Przychodni
+   </div>
+   <div id="projectbrief">Program służący do rejestracji pacjetnów w przychodni</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Wizyty.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_wizyty_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PRZYCHODNIA_WIZYTY_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PRZYCHODNIA_WIZYTY_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_wizyta_8h.html">Wizyta.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_wizyty.html">    7</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_wizyty.html">Wizyty</a> {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="class_wizyty.html#a28fa7e3d5f22dd835918d12cec9fa250">Wizyty</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    std::vector&lt;Wizyta&gt; <a class="code" href="class_wizyty.html#a362c707242eee5f82503aa3f9e6145a2">pobierzDlaDanegoLekarz</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> numerLekarza);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wizyty.html#afb1324c79fee5973c52cc19a833e06cb">dodaj</a>(std::shared_ptr&lt;Wizyta&gt; wizytaPtr);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    std::vector&lt;Wizyta&gt; <a class="code" href="class_wizyty.html#a395056580dab3d1321bd970e4962d78b">pobierzDlaDanegoPacjenta</a>(std::string peselPacjenta);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_wizyty.html#a17608c9b0f50d6c99049263a6cd186d1">usun</a>(std::string data, std::string godzina);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::vector&lt;Wizyta&gt; <a class="code" href="class_wizyty.html#aa19d5a6202aa156e156c555d0581e0a7">pobierzWszystkieWizyty</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> wielkosc = 0; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    std::shared_ptr&lt;Wizyta&gt; pierwszaWizyta; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PRZYCHODNIA_WIZYTY_H</span></div>
+<div class="ttc" id="a_wizyta_8h_html"><div class="ttname"><a href="_wizyta_8h.html">Wizyta.h</a></div></div>
+<div class="ttc" id="aclass_wizyty_html"><div class="ttname"><a href="class_wizyty.html">Wizyty</a></div><div class="ttdoc">Klasa majšca symbolizować spis Wizyt np dla danego lekarza.</div><div class="ttdef"><b>Definition:</b> Wizyty.h:7</div></div>
+<div class="ttc" id="aclass_wizyty_html_a17608c9b0f50d6c99049263a6cd186d1"><div class="ttname"><a href="class_wizyty.html#a17608c9b0f50d6c99049263a6cd186d1">Wizyty::usun</a></div><div class="ttdeci">void usun(std::string data, std::string godzina)</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:86</div></div>
+<div class="ttc" id="aclass_wizyty_html_a28fa7e3d5f22dd835918d12cec9fa250"><div class="ttname"><a href="class_wizyty.html#a28fa7e3d5f22dd835918d12cec9fa250">Wizyty::Wizyty</a></div><div class="ttdeci">Wizyty()</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:8</div></div>
+<div class="ttc" id="aclass_wizyty_html_a362c707242eee5f82503aa3f9e6145a2"><div class="ttname"><a href="class_wizyty.html#a362c707242eee5f82503aa3f9e6145a2">Wizyty::pobierzDlaDanegoLekarz</a></div><div class="ttdeci">std::vector&lt; Wizyta &gt; pobierzDlaDanegoLekarz(unsigned int numerLekarza)</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:38</div></div>
+<div class="ttc" id="aclass_wizyty_html_a395056580dab3d1321bd970e4962d78b"><div class="ttname"><a href="class_wizyty.html#a395056580dab3d1321bd970e4962d78b">Wizyty::pobierzDlaDanegoPacjenta</a></div><div class="ttdeci">std::vector&lt; Wizyta &gt; pobierzDlaDanegoPacjenta(std::string peselPacjenta)</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:69</div></div>
+<div class="ttc" id="aclass_wizyty_html_aa19d5a6202aa156e156c555d0581e0a7"><div class="ttname"><a href="class_wizyty.html#aa19d5a6202aa156e156c555d0581e0a7">Wizyty::pobierzWszystkieWizyty</a></div><div class="ttdeci">std::vector&lt; Wizyta &gt; pobierzWszystkieWizyty()</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:106</div></div>
+<div class="ttc" id="aclass_wizyty_html_afb1324c79fee5973c52cc19a833e06cb"><div class="ttname"><a href="class_wizyty.html#afb1324c79fee5973c52cc19a833e06cb">Wizyty::dodaj</a></div><div class="ttdeci">void dodaj(std::shared_ptr&lt; Wizyta &gt; wizytaPtr)</div><div class="ttdef"><b>Definition:</b> Wizyty.cpp:54</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

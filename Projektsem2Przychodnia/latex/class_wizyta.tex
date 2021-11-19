@@ -1,0 +1,116 @@
+\hypertarget{class_wizyta}{}\doxysection{Dokumentacja klasy Wizyta}
+\label{class_wizyta}\index{Wizyta@{Wizyta}}
+
+
+Klasa majšca za zadanie obrazowanie pojedynczej wizyty.  
+
+
+
+
+{\ttfamily \#include $<$Wizyta.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wizyta_ab65fd9d402b393f0ab7ae1c8468e2d79}{Wizyta}} (const std\+::string \&pesl\+Pacjenta, unsigned int numer\+Lekrza, const std\+::string \&data, int godzina)
+\item 
+int \mbox{\hyperlink{class_wizyta_abc9a1057a96eb526cca9207a1041721a}{pobierz\+Numer\+Lekarza}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_wizyta_a8e254c83a0b6b7962ab867d5d63a03c2}{pobierz\+Date}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_wizyta_aac489f7e71843065da911781448badd1}{pobierz\+Pesel\+Pacjenta}} ()
+\item 
+int \mbox{\hyperlink{class_wizyta_acf34dd959aefe3fe17ec67314662b037}{pobierz\+Godzine}} ()
+\item 
+bool \mbox{\hyperlink{class_wizyta_a393e90268e9e41bf36a3e7211e94a4e2}{czy\+Sie\+Odbyla}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_wizyta}{Wizyta}} $>$ \mbox{\hyperlink{class_wizyta_a4547e6883df8dea5c296471e114ec7bf}{kolejna\+Wizyta}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa majšca za zadanie obrazowanie pojedynczej wizyty. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_wizyta_ab65fd9d402b393f0ab7ae1c8468e2d79}\label{class_wizyta_ab65fd9d402b393f0ab7ae1c8468e2d79}} 
+\index{Wizyta@{Wizyta}!Wizyta@{Wizyta}}
+\index{Wizyta@{Wizyta}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{Wizyta()}{Wizyta()}}
+{\footnotesize\ttfamily Wizyta\+::\+Wizyta (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{pesl\+Pacjenta,  }\item[{unsigned int}]{numer\+Lekrza,  }\item[{const std\+::string \&}]{data,  }\item[{int}]{godzina }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_wizyta_a393e90268e9e41bf36a3e7211e94a4e2}\label{class_wizyta_a393e90268e9e41bf36a3e7211e94a4e2}} 
+\index{Wizyta@{Wizyta}!czySieOdbyla@{czySieOdbyla}}
+\index{czySieOdbyla@{czySieOdbyla}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{czySieOdbyla()}{czySieOdbyla()}}
+{\footnotesize\ttfamily bool Wizyta\+::czy\+Sie\+Odbyla (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za sprawdzanie czy dana wizyta już miała miejsce
+
+\begin{DoxyReturn}{Zwraca}
+true jeli wizyta jest z przeszłoci lub false, jeli wizyta się jeszcze nie odbyła i jest zaplanowana 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyta_a8e254c83a0b6b7962ab867d5d63a03c2}\label{class_wizyta_a8e254c83a0b6b7962ab867d5d63a03c2}} 
+\index{Wizyta@{Wizyta}!pobierzDate@{pobierzDate}}
+\index{pobierzDate@{pobierzDate}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{pobierzDate()}{pobierzDate()}}
+{\footnotesize\ttfamily std\+::string Wizyta\+::pobierz\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie stringa, który przechowuje date wizyty
+
+\begin{DoxyReturn}{Zwraca}
+daya -\/ string, w którym przechowana jest data wizyty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyta_acf34dd959aefe3fe17ec67314662b037}\label{class_wizyta_acf34dd959aefe3fe17ec67314662b037}} 
+\index{Wizyta@{Wizyta}!pobierzGodzine@{pobierzGodzine}}
+\index{pobierzGodzine@{pobierzGodzine}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{pobierzGodzine()}{pobierzGodzine()}}
+{\footnotesize\ttfamily int Wizyta\+::pobierz\+Godzine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie zmiennej typu int, który przechowuje godzine wizyty
+
+\begin{DoxyReturn}{Zwraca}
+godzina -\/ int, w którym przechowana jest godzina 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyta_abc9a1057a96eb526cca9207a1041721a}\label{class_wizyta_abc9a1057a96eb526cca9207a1041721a}} 
+\index{Wizyta@{Wizyta}!pobierzNumerLekarza@{pobierzNumerLekarza}}
+\index{pobierzNumerLekarza@{pobierzNumerLekarza}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{pobierzNumerLekarza()}{pobierzNumerLekarza()}}
+{\footnotesize\ttfamily int Wizyta\+::pobierz\+Numer\+Lekarza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie zmiennej typu int, który przechowuje numer lekarza
+
+\begin{DoxyReturn}{Zwraca}
+godzina -\/ int, w którym przechowany jest numer lekarza 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wizyta_aac489f7e71843065da911781448badd1}\label{class_wizyta_aac489f7e71843065da911781448badd1}} 
+\index{Wizyta@{Wizyta}!pobierzPeselPacjenta@{pobierzPeselPacjenta}}
+\index{pobierzPeselPacjenta@{pobierzPeselPacjenta}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{pobierzPeselPacjenta()}{pobierzPeselPacjenta()}}
+{\footnotesize\ttfamily std\+::string Wizyta\+::pobierz\+Pesel\+Pacjenta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie stringa, który przechowuje numer pesel pacjenta zapisanego na danš wizytę
+
+\begin{DoxyReturn}{Zwraca}
+pesel\+Pacjenta -\/ zmienna typu string przechowujšca pesel pacjenta zapisanego na danš wizytę 
+\end{DoxyReturn}
+
+
+\doxysubsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{class_wizyta_a4547e6883df8dea5c296471e114ec7bf}\label{class_wizyta_a4547e6883df8dea5c296471e114ec7bf}} 
+\index{Wizyta@{Wizyta}!kolejnaWizyta@{kolejnaWizyta}}
+\index{kolejnaWizyta@{kolejnaWizyta}!Wizyta@{Wizyta}}
+\doxysubsubsection{\texorpdfstring{kolejnaWizyta}{kolejnaWizyta}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{class_wizyta}{Wizyta}}$>$ Wizyta\+::kolejna\+Wizyta}
+
+Inteligentny wskanik na obiekt klasy \mbox{\hyperlink{class_wizyta}{Wizyta}}, ma wskazywać na kolejš wizytę jaka została wprowadzona do programu 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_wizyta_8h}{Wizyta.\+h}}\item 
+\mbox{\hyperlink{_wizyta_8cpp}{Wizyta.\+cpp}}\end{DoxyCompactItemize}

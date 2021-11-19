@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Rejestracja W Przychodni: Plik źródłowy Zmiana.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rejestracja W Przychodni
+   </div>
+   <div id="projectbrief">Program służący do rejestracji pacjetnów w przychodni</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Zmiana.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_zmiana_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PRZYCHODNIA_ZMIANA_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PRZYCHODNIA_ZMIANA_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_dzien_8h.html">Dzien.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_zmiana.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_zmiana.html">Zmiana</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="class_zmiana.html#af68f6cbb1acb76bde51d9e9ecb710b15">Zmiana</a>(<a class="code" href="_dzien_8h.html#af33cc859e20785954826f83a5dadef96">Dzien</a> dzien, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> godzinaRozpoczecia, <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> godzinaZakonczenia);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="_dzien_8h.html#af33cc859e20785954826f83a5dadef96">Dzien</a> <a class="code" href="class_zmiana.html#a0ed3bf1591119f0f137a7aee1acc1a86">pobierzDzien</a>();</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_zmiana.html#af83475c801954f26f58573a3b2f20a3d">pobierzGodzineRozpoczecia</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_zmiana.html#a0ac57c3577e87558c6ee4770bd27ffc5">pobierzGodzineZakonczenia</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="_dzien_8h.html#af33cc859e20785954826f83a5dadef96">Dzien</a> dzien; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> godzinaRozpoczecia; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keywordtype">int</span> godzinaZakonczenia;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;};</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PRZYCHODNIA_ZMIANA_H</span></div>
+<div class="ttc" id="a_dzien_8h_html"><div class="ttname"><a href="_dzien_8h.html">Dzien.h</a></div></div>
+<div class="ttc" id="a_dzien_8h_html_af33cc859e20785954826f83a5dadef96"><div class="ttname"><a href="_dzien_8h.html#af33cc859e20785954826f83a5dadef96">Dzien</a></div><div class="ttdeci">Dzien</div><div class="ttdoc">Pomocniczy plik nagłówkowy tygodnia, gdzie zdefiniowane sš nazwy dni tygodnia.</div><div class="ttdef"><b>Definition:</b> Dzien.h:6</div></div>
+<div class="ttc" id="aclass_zmiana_html"><div class="ttname"><a href="class_zmiana.html">Zmiana</a></div><div class="ttdoc">Klasa obrazujšca poszczególne zmiany lekarza.</div><div class="ttdef"><b>Definition:</b> Zmiana.h:6</div></div>
+<div class="ttc" id="aclass_zmiana_html_a0ac57c3577e87558c6ee4770bd27ffc5"><div class="ttname"><a href="class_zmiana.html#a0ac57c3577e87558c6ee4770bd27ffc5">Zmiana::pobierzGodzineZakonczenia</a></div><div class="ttdeci">int pobierzGodzineZakonczenia()</div><div class="ttdef"><b>Definition:</b> Zmiana.cpp:27</div></div>
+<div class="ttc" id="aclass_zmiana_html_a0ed3bf1591119f0f137a7aee1acc1a86"><div class="ttname"><a href="class_zmiana.html#a0ed3bf1591119f0f137a7aee1acc1a86">Zmiana::pobierzDzien</a></div><div class="ttdeci">Dzien pobierzDzien()</div><div class="ttdef"><b>Definition:</b> Zmiana.cpp:13</div></div>
+<div class="ttc" id="aclass_zmiana_html_af68f6cbb1acb76bde51d9e9ecb710b15"><div class="ttname"><a href="class_zmiana.html#af68f6cbb1acb76bde51d9e9ecb710b15">Zmiana::Zmiana</a></div><div class="ttdeci">Zmiana(Dzien dzien, unsigned short godzinaRozpoczecia, unsigned short godzinaZakonczenia)</div><div class="ttdef"><b>Definition:</b> Zmiana.cpp:4</div></div>
+<div class="ttc" id="aclass_zmiana_html_af83475c801954f26f58573a3b2f20a3d"><div class="ttname"><a href="class_zmiana.html#af83475c801954f26f58573a3b2f20a3d">Zmiana::pobierzGodzineRozpoczecia</a></div><div class="ttdeci">int pobierzGodzineRozpoczecia()</div><div class="ttdef"><b>Definition:</b> Zmiana.cpp:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,165 @@
+\begin{theindex}
+
+  \item {Czwartek}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {czySieOdbyla}
+    \subitem {Wizyta}, \hyperpage{14}
+
+  \indexspace
+
+  \item {dodaj}
+    \subitem {Wizyty}, \hyperpage{16}
+  \item {Dzien}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {Dzien.h}, \hyperpage{21}
+    \subitem {Czwartek}, \hyperpage{21}
+    \subitem {Dzien}, \hyperpage{21}
+    \subitem {Niedziela}, \hyperpage{21}
+    \subitem {Piatek}, \hyperpage{21}
+    \subitem {Poniedzialek}, \hyperpage{21}
+    \subitem {Sobota}, \hyperpage{21}
+    \subitem {Sroda}, \hyperpage{21}
+    \subitem {Wolne}, \hyperpage{21}
+    \subitem {Wtorek}, \hyperpage{21}
+
+  \indexspace
+
+  \item {kolejnaWizyta}
+    \subitem {Wizyta}, \hyperpage{15}
+  \item {Konsola}, \hyperpage{7}
+    \subitem {start}, \hyperpage{7}
+  \item {Konsola.cpp}, \hyperpage{22}
+  \item {Konsola.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Lekarz}, \hyperpage{8}
+    \subitem {Lekarz}, \hyperpage{8}
+    \subitem {pobierzDaneOsoby}, \hyperpage{8}
+    \subitem {pobierzNumerLekarza}, \hyperpage{9}
+    \subitem {pobierzSpecjalizacje}, \hyperpage{9}
+    \subitem {pobierzZmianeZDnia}, \hyperpage{9}
+    \subitem {pobierzZmiany}, \hyperpage{10}
+  \item {Lekarz.cpp}, \hyperpage{22}
+  \item {Lekarz.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {main}
+    \subitem {Projektsem2Przychodnia.cpp}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Niedziela}
+    \subitem {Dzien.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Osoba}, \hyperpage{10}
+    \subitem {Osoba}, \hyperpage{10}
+    \subitem {pobierzDaneOsoby}, \hyperpage{11}
+    \subitem {pobierzNazwisko}, \hyperpage{11}
+  \item {Osoba.cpp}, \hyperpage{23}
+  \item {Osoba.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Pacjent}, \hyperpage{11}
+    \subitem {Pacjent}, \hyperpage{12}
+    \subitem {pobierzDaneOsoby}, \hyperpage{12}
+    \subitem {pobierzPesel}, \hyperpage{12}
+  \item {Pacjent.cpp}, \hyperpage{23}
+  \item {Pacjent.h}, \hyperpage{23}
+  \item {Piatek}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {pobierzDaneOsoby}
+    \subitem {Lekarz}, \hyperpage{8}
+    \subitem {Osoba}, \hyperpage{11}
+    \subitem {Pacjent}, \hyperpage{12}
+  \item {pobierzDate}
+    \subitem {Wizyta}, \hyperpage{14}
+  \item {pobierzDlaDanegoLekarz}
+    \subitem {Wizyty}, \hyperpage{16}
+  \item {pobierzDlaDanegoPacjenta}
+    \subitem {Wizyty}, \hyperpage{17}
+  \item {pobierzDzien}
+    \subitem {Zmiana}, \hyperpage{18}
+  \item {pobierzGodzine}
+    \subitem {Wizyta}, \hyperpage{14}
+  \item {pobierzGodzineRozpoczecia}
+    \subitem {Zmiana}, \hyperpage{18}
+  \item {pobierzGodzineZakonczenia}
+    \subitem {Zmiana}, \hyperpage{19}
+  \item {pobierzNazwisko}
+    \subitem {Osoba}, \hyperpage{11}
+  \item {pobierzNumerLekarza}
+    \subitem {Lekarz}, \hyperpage{9}
+    \subitem {Wizyta}, \hyperpage{14}
+  \item {pobierzPesel}
+    \subitem {Pacjent}, \hyperpage{12}
+  \item {pobierzPeselPacjenta}
+    \subitem {Wizyta}, \hyperpage{15}
+  \item {pobierzSpecjalizacje}
+    \subitem {Lekarz}, \hyperpage{9}
+  \item {pobierzWszystkieWizyty}
+    \subitem {Wizyty}, \hyperpage{17}
+  \item {pobierzZmianeZDnia}
+    \subitem {Lekarz}, \hyperpage{9}
+  \item {pobierzZmiany}
+    \subitem {Lekarz}, \hyperpage{10}
+  \item {Poniedzialek}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {Projektsem2Przychodnia.cpp}, \hyperpage{23}
+    \subitem {main}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Sobota}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {Sroda}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {start}
+    \subitem {Konsola}, \hyperpage{7}
+
+  \indexspace
+
+  \item {usun}
+    \subitem {Wizyty}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Wizyta}, \hyperpage{13}
+    \subitem {czySieOdbyla}, \hyperpage{14}
+    \subitem {kolejnaWizyta}, \hyperpage{15}
+    \subitem {pobierzDate}, \hyperpage{14}
+    \subitem {pobierzGodzine}, \hyperpage{14}
+    \subitem {pobierzNumerLekarza}, \hyperpage{14}
+    \subitem {pobierzPeselPacjenta}, \hyperpage{15}
+    \subitem {Wizyta}, \hyperpage{13}
+  \item {Wizyta.cpp}, \hyperpage{24}
+  \item {Wizyta.h}, \hyperpage{24}
+  \item {Wizyty}, \hyperpage{15}
+    \subitem {dodaj}, \hyperpage{16}
+    \subitem {pobierzDlaDanegoLekarz}, \hyperpage{16}
+    \subitem {pobierzDlaDanegoPacjenta}, \hyperpage{17}
+    \subitem {pobierzWszystkieWizyty}, \hyperpage{17}
+    \subitem {usun}, \hyperpage{17}
+    \subitem {Wizyty}, \hyperpage{16}
+  \item {Wizyty.cpp}, \hyperpage{24}
+  \item {Wizyty.h}, \hyperpage{24}
+  \item {Wolne}
+    \subitem {Dzien.h}, \hyperpage{21}
+  \item {Wtorek}
+    \subitem {Dzien.h}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Zmiana}, \hyperpage{18}
+    \subitem {pobierzDzien}, \hyperpage{18}
+    \subitem {pobierzGodzineRozpoczecia}, \hyperpage{18}
+    \subitem {pobierzGodzineZakonczenia}, \hyperpage{19}
+    \subitem {Zmiana}, \hyperpage{18}
+  \item {Zmiana.cpp}, \hyperpage{25}
+  \item {Zmiana.h}, \hyperpage{25}
+
+\end{theindex}

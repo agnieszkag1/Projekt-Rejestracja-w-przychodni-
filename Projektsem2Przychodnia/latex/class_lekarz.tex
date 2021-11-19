@@ -1,0 +1,119 @@
+\hypertarget{class_lekarz}{}\doxysection{Dokumentacja klasy Lekarz}
+\label{class_lekarz}\index{Lekarz@{Lekarz}}
+
+
+Klasa, która dzieciczy z klasy \mbox{\hyperlink{class_osoba}{Osoba}}, majšca za zadanie obrazować Lekarza w przychodni.  
+
+
+
+
+{\ttfamily \#include $<$Lekarz.\+h$>$}
+
+
+
+Diagram dziedziczenia dla Lekarz
+% FIG 0
+
+
+Diagram współpracy dla Lekarz\+:
+% FIG 1
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_lekarz_a4722b77a2f1f81aa409fd9559ee00598}{Lekarz}} (const std\+::string \&imie, const std\+::string \&nazwisko, const std\+::string \&numer\+Telefonu, int numer\+Lekarza, const std\+::string \&specjalizacja, const std\+::vector$<$ \mbox{\hyperlink{class_zmiana}{Zmiana}} $>$ \&zmiany)
+\item 
+std\+::string \mbox{\hyperlink{class_lekarz_a04a785c9199b0872871497fa41cb1d7a}{pobierz\+Specjalizacje}} ()
+\item 
+std\+::string \mbox{\hyperlink{class_lekarz_a1382ad0bd4eb836b08ca92eec8e4776e}{pobierz\+Dane\+Osoby}} ()
+\item 
+int \mbox{\hyperlink{class_lekarz_a93de1b365fe2fe4d8e1f23177da57973}{pobierz\+Numer\+Lekarza}} ()
+\item 
+\mbox{\hyperlink{class_zmiana}{Zmiana}} \mbox{\hyperlink{class_lekarz_af0fb4ec926586f342b6803cbf3bf8972}{pobierz\+Zmiane\+ZDnia}} (std\+::string data)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_zmiana}{Zmiana}} $>$ \mbox{\hyperlink{class_lekarz_a6944db87c50577f3b02b931f13d7c7c0}{pobierz\+Zmiany}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa, która dzieciczy z klasy \mbox{\hyperlink{class_osoba}{Osoba}}, majšca za zadanie obrazować Lekarza w przychodni. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_lekarz_a4722b77a2f1f81aa409fd9559ee00598}\label{class_lekarz_a4722b77a2f1f81aa409fd9559ee00598}} 
+\index{Lekarz@{Lekarz}!Lekarz@{Lekarz}}
+\index{Lekarz@{Lekarz}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{Lekarz()}{Lekarz()}}
+{\footnotesize\ttfamily Lekarz\+::\+Lekarz (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{imie,  }\item[{const std\+::string \&}]{nazwisko,  }\item[{const std\+::string \&}]{numer\+Telefonu,  }\item[{int}]{numer\+Lekarza,  }\item[{const std\+::string \&}]{specjalizacja,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_zmiana}{Zmiana}} $>$ \&}]{zmiany }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_lekarz_a1382ad0bd4eb836b08ca92eec8e4776e}\label{class_lekarz_a1382ad0bd4eb836b08ca92eec8e4776e}} 
+\index{Lekarz@{Lekarz}!pobierzDaneOsoby@{pobierzDaneOsoby}}
+\index{pobierzDaneOsoby@{pobierzDaneOsoby}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{pobierzDaneOsoby()}{pobierzDaneOsoby()}}
+{\footnotesize\ttfamily std\+::string Lekarz\+::pobierz\+Dane\+Osoby (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda odpowiedzialna za zwracanie stringa złożonego z wyrazów
+
+\begin{DoxyReturn}{Zwraca}
+ret\+Val -\/ zwraca string w tym przypadku zmiennš o nazwie ret\+Val, która przechowuje dane lekarza 
+\end{DoxyReturn}
+
+
+Reimplementowana z \mbox{\hyperlink{class_osoba_a3d900db10214f525342a4021292c5d96}{Osoba}}.
+
+\mbox{\Hypertarget{class_lekarz_a93de1b365fe2fe4d8e1f23177da57973}\label{class_lekarz_a93de1b365fe2fe4d8e1f23177da57973}} 
+\index{Lekarz@{Lekarz}!pobierzNumerLekarza@{pobierzNumerLekarza}}
+\index{pobierzNumerLekarza@{pobierzNumerLekarza}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{pobierzNumerLekarza()}{pobierzNumerLekarza()}}
+{\footnotesize\ttfamily int Lekarz\+::pobierz\+Numer\+Lekarza (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie zmiennej typu int, który przechowuje numer lekarza
+
+\begin{DoxyReturn}{Zwraca}
+numer\+Lekarza -\/ int, w którym przechowany jest numer lekarza 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lekarz_a04a785c9199b0872871497fa41cb1d7a}\label{class_lekarz_a04a785c9199b0872871497fa41cb1d7a}} 
+\index{Lekarz@{Lekarz}!pobierzSpecjalizacje@{pobierzSpecjalizacje}}
+\index{pobierzSpecjalizacje@{pobierzSpecjalizacje}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{pobierzSpecjalizacje()}{pobierzSpecjalizacje()}}
+{\footnotesize\ttfamily std\+::string Lekarz\+::pobierz\+Specjalizacje (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie stringa, który przechowuje specjalizacje lekarza
+
+\begin{DoxyReturn}{Zwraca}
+specjalizacja -\/ string, w którym przechowana jest specjalizacja lekarza 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lekarz_af0fb4ec926586f342b6803cbf3bf8972}\label{class_lekarz_af0fb4ec926586f342b6803cbf3bf8972}} 
+\index{Lekarz@{Lekarz}!pobierzZmianeZDnia@{pobierzZmianeZDnia}}
+\index{pobierzZmianeZDnia@{pobierzZmianeZDnia}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{pobierzZmianeZDnia()}{pobierzZmianeZDnia()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_zmiana}{Zmiana}} Lekarz\+::pobierz\+Zmiane\+ZDnia (\begin{DoxyParamCaption}\item[{std\+::string}]{data }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie zmiennej typu \mbox{\hyperlink{class_zmiana}{Zmiana}}
+
+Metoda zraca zmianę lekarza z danego dnia (zmiana tj godziny pracy w danym dniu) 
+\begin{DoxyParams}{Parametry}
+{\em data} & -\/ string, w którym do metody podajemy datę \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+zwraca zmianę lekarza z danej daty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_lekarz_a6944db87c50577f3b02b931f13d7c7c0}\label{class_lekarz_a6944db87c50577f3b02b931f13d7c7c0}} 
+\index{Lekarz@{Lekarz}!pobierzZmiany@{pobierzZmiany}}
+\index{pobierzZmiany@{pobierzZmiany}!Lekarz@{Lekarz}}
+\doxysubsubsection{\texorpdfstring{pobierzZmiany()}{pobierzZmiany()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_zmiana}{Zmiana}} $>$ Lekarz\+::pobierz\+Zmiany (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda odpowiedzialna za zwracanie zmian (godzin pracy z dniami) danego lekarza
+
+\begin{DoxyReturn}{Zwraca}
+zmiany -\/ wektor zmian danego lekarza 
+\end{DoxyReturn}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_lekarz_8h}{Lekarz.\+h}}\item 
+\mbox{\hyperlink{_lekarz_8cpp}{Lekarz.\+cpp}}\end{DoxyCompactItemize}
